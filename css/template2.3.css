@@ -1,0 +1,157 @@
+
+/* section service */
+
+.service-contener{
+    margin-top: 120px;
+    width: 100%;
+    height: 700px;
+    background-color: #f8f8f9;
+    text-align: center;
+    box-sizing: content-box;
+    padding-top: 90px;
+}
+ .service-contener .service-contener-icon{
+    
+    width: 80%;
+    height: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    
+ }
+ .service-contener .service-contener-icon span{
+    font-size:70px; 
+    margin-top: 20px;
+ }
+ .service-contener .service-contener-icon h3{
+     font-family: "Roboto";
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 0;
+    position: relative;
+}
+.service-contener .service-contener-icon h4{
+    font-size: 20px;
+}
+ .service-contener .service-contener-icon p {
+    font-size: 17px;
+    color: #888;
+    max-width: 720px;
+    margin: 17px auto 50px;
+}
+.service-contener .service-contener-flex{
+    width: 100%;
+    height: 455px;
+   display: flex;
+   flex-wrap: wrap  ;
+
+   
+}
+.service-contener .service-contener-flex .service-contener-flex-content{
+    width: 25%;
+    height: 50%;
+    background-color: transparent;
+}
+.service-contener .service-contener-flex .service-contener-flex-content .icon-flex{
+    width: 100%;
+    height: 40%;
+    background-color: transparent; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-contener .service-contener-flex .service-contener-flex-content .icon-flex .icon {
+    width: 20%;
+    height: 67%;
+    background-color: #4274b7;;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+.service-contener .service-contener-flex .service-contener-flex-content .icon-flex .icon span {
+    margin-top: 15px;
+    font-size: 35px;
+}
+/* section service */
+
+/* section testimonials */
+
+.section-testimonials{
+    width: 100%;
+    height: 560px;
+    background-image: url("../img/business-main.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index:1;
+}
+.section-testimonials .background-color{
+    font-size: 23px;
+    line-height: 2;
+    font-weight: 100;
+    padding-top: 38px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4274b7;
+    opacity: 0.8;
+    z-index:2;
+}
+.section-testimonials .background-color span{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.section-testimonials .background-color p{
+    margin-bottom: 22px;
+}
+.section-testimonials .background-color .text-1{
+font-size: 19px;
+}
+.section-testimonials .background-color .text-2{
+    font-size: 16px;
+    margin-top: 2px;
+    opacity: .7;
+    margin-bottom: 15px;
+}
+.section-testimonials .background-color .button{
+    border: 1.5px solid white;
+    border-radius: 35px;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    cursor: pointer;
+}
+.section-testimonials .background-color .button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.section-testimonials .background-color .button span{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.section-logo{
+    width: 100%;
+    height: 270px;
+}
+.section-logo .logo-contener{
+    width: 80%;
+    height: 100%;
+  margin: 50px auto;
+}
+.section-logo .logo-contener img{
+    margin-left: 25px;
+    opacity: 0.5;
+}
+.section-logo .logo-contener img:hover{
+    opacity: 1;
+}
+
+/* section testimonials */
