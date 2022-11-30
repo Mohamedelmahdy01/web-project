@@ -21,17 +21,19 @@ body{
    /*margin: 40px 0;
    */width: 100%;
    height: 60px;
-   background-color: transparent;
+   background-color: rgba(4, 30, 86,0.6);
    display: flex;
    justify-content:  space-between ;
    align-items: center;
-   border-bottom: 1px solid white;
-   border-radius: 6px;
-   -webkit-border-radius: 6px;
-   -moz-border-radius: 6px;
-   -ms-border-radius: 6px;
-   -o-border-radius: 6px;
+   border-bottom: 1px solid rgb(4, 30, 86);
+   border-radius: 12px;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   -ms-border-radius: 12px;
+   -o-border-radius: 12px;
    z-index: 99999;
+   /*color: black;
+    */:;
 }
 /* .continer .line{
     width: 100%;
@@ -42,12 +44,14 @@ body{
 
 flex: 60%;
 max-width: 60%;
+color: #222;
 
 }
 .continer .logo a img{
     width: 136px;
     height: 36px;
     margin-left: 150px;
+    color: black ;
 }
 .continer .list-nav{
     flex: 40%;
@@ -111,7 +115,7 @@ text-align: center;
     padding-top: 280px;
     width: 1519px;
     height: 815px;
-    background-image: url("../img/business-main.jpg");
+    background-image: url("../new_img/header.jpg");
     background-size: cover;
     text-align: center;
     color: #fff;
@@ -173,7 +177,7 @@ text-align: center;
     color: #222;
 }
 .header .botton-two:hover{
-    background-color: #4274b7;
+    background-color: #4174b5;
     color: #fff;
 }
 .header .circle-box{
